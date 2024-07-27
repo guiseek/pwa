@@ -1,0 +1,60 @@
+{
+  "lang": "pt-br",
+  "dir": "ltr",
+  "name": "Progressive Web App",
+  "short_name": "PWA",
+  "icons": [
+    {
+      "src": "icon/32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon/64x64.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon/128x128.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./icon/144x144.svg",
+      "sizes": "144x144",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./icon/256x256.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./icon/512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "scope": "/",
+  "id": "pr.web.app",
+  "start_url": "/",
+  "orientation": "landscape",
+  "display_override": ["window-controls-overlay"],
+  "display": "standalone",
+  "theme_color": "#EF6C00",
+  "background_color": "#FFC61D",
+  "screenshots": [
+    {
+      "src": "images/mobile.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/wide.jpg",
+      "type": "image/jpg",
+      "sizes": "3840x2340",
+      "form_factor": "wide"
+    }
+  ]
+}
